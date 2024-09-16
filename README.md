@@ -1,6 +1,5 @@
 # Music-Analysis-and-Prediction
-Music Analysis and Prediction
-
+Create a Python Virtual Environment to Work on Specific Dependencies.
 1. cd path/to/your/project
 2. python -m venv music_prediction python=3.11
 3. venv\Scripts\activate
