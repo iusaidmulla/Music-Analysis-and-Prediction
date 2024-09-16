@@ -29,40 +29,44 @@ Distributions: Histograms were plotted for these numerical features to visualize
 Correlation Matrix: A correlation matrix was computed and visualized using a heatmap to identify relationships between numerical features.
 6. Additional EDA
 Other Columns: Analysis of other remaining columns was performed, including visualizations of categorical data like the top artists.
-Part 2: Model Building
-Predictive Model 1: Genre Prediction
-Data Preparation
 
-Genre Encoding: The genre variable was encoded into a numerical format.
-Lyrics Preprocessing: The lyrics column was processed using TF-IDF vectorization to convert text into numerical features.
-Feature Set Preparation
+##### Part 2: Model Building
+##### Predictive Model 1: Genre Prediction
+##### Data Preparation
 
-Combination: Numerical features and text features were combined to create the final feature set for modeling.
-Model Building
+##### Genre Encoding: The genre variable was encoded into a numerical format.
+1. Lyrics Preprocessing: The lyrics column was processed using TF-IDF vectorization to convert text into numerical features.
+2. Feature Set Preparation
+
+##### Combination: Numerical features and text features were combined to create the final feature set for modeling.
+
+##### Model Building
 
 Training and Testing Split: Data was split into training and testing sets.
-Models:
-Logistic Regression and Random Forest classifiers were trained and evaluated.
-Evaluation Metrics: Accuracy, classification reports, and feature importance were used to evaluate model performance.
-Feature Importance
+##### Models:
 
-Top Features: Important features were identified, and their contributions to the models were analyzed.
-Predictive Model 2: Song Recommendation
-Recommendation Criteria
+1. Logistic Regression and Random Forest classifiers were trained and evaluated.
+2. Evaluation Metrics: Accuracy, classification reports, and feature importance were used to evaluate model performance.
 
+##### Feature Importance
+
+1. Top Features: Important features were identified, and their contributions to the models were analyzed.
+2. Predictive Model 2: Song Recommendation
+3. Recommendation Criteria;
+   
 Criteria for song recommendation based on mood and other filters were defined.
-Recommendation System
+##### Recommendation System
 
-Content-Based Filtering: A recommendation system using content-based filtering was implemented.
-Evaluation: Metrics for evaluating the performance of the recommendation system were considered.
-Additional Considerations
-Handling Missing Values: Missing values were addressed using imputation techniques.
-Feature Usefulness: Features related to previous campaign data were assessed for relevance.
-Special Values: Special values and outliers were handled appropriately.
-Next Steps
-Fine-Tuning Models: Experiment with additional feature selection techniques and model hyperparameters.
-Enhance Recommendations: Explore collaborative filtering and hybrid recommendation techniques.
-Documentation: Ensure all code is well-documented, and a comprehensive README file is included.
-Submission: Prepare the final submission as a private Git repository or ZIP file, including screenshots and a short demonstration video.
-Conclusion
+1. Content-Based Filtering: A recommendation system using content-based filtering was implemented.
+2. Evaluation: Metrics for evaluating the performance of the recommendation system were considered.
+3. Additional Considerations
+4. Handling Missing Values: Missing values were addressed using imputation techniques.
+5. Feature Usefulness: Features related to previous campaign data were assessed for relevance.
+6. Special Values: Special values and outliers were handled appropriately.
+
+##### Next Steps
+1. Fine-Tuning Models: Experiment with additional feature selection techniques and model hyperparameters.
+2. Enhance Recommendations: Explore collaborative filtering and hybrid recommendation techniques.
+
+#### Conclusion
 This project provides a comprehensive analysis and modeling approach for predicting music genres and recommending songs based on mood. The exploratory analysis offers insights into the dataset, while the modeling phase demonstrates the ability to predict genres and recommend songs with confidence. Further improvements can be made by refining models and exploring advanced recommendation techniques.
