@@ -7,8 +7,8 @@ Music Analysis and Prediction
 
 pip install -r requirements.txt
 
-Summary Report: Music Analysis and Prediction
-Overview
+##### Summary Report: Music Analysis and Prediction
+##### Overview
 This project involves analyzing a music dataset to achieve two main objectives:
 
 Predict the Genre of Music: Build a model to classify music into different genres.
